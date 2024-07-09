@@ -20,7 +20,7 @@ const Accordian = () => {
   }
   console.log(multiselect);
   return (
-    <div className="flex flex-col items-center gap-5 m-10">
+    <div className="flex flex-col items-center justify-center gap-5 h-screen">
       <div
         onClick={() => {
           setMultiple(!multiple);
